@@ -148,12 +148,12 @@ public class SimuladorBatallas {
             );
         }
 
-
+        /*
         log.info("===== CAJA NEGRA FINAL =====");
 
         for (ReporteBatalla reporte : cajaNegra) {
             log.info("{}", reporte);
-        }
+        }*/
         return horda;
     }
 
