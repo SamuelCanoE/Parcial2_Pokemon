@@ -1,7 +1,7 @@
-2026-09-10 21:03:51 [main] INFO  performance - Memoria RAM disponible antes: 3918663680 bytes
-2026-09-10 21:03:51 [main] INFO  performance - Memoria RAM disponible despues: 3825020928 bytes
-2026-09-10 21:03:51 [main] INFO  performance - Diferencia de RAM: 93642752 bytes
-2026-09-10 21:03:53 [main] INFO  performance - Tamano de Pokemon (JOL):
+2026-09-11 12:26:35 [main] INFO  performance - Memoria RAM disponible antes: 3182051328 bytes
+2026-09-11 12:26:35 [main] INFO  performance - Memoria RAM disponible despues: 3112857600 bytes
+2026-09-11 12:26:35 [main] INFO  performance - Diferencia de RAM: 69193728 bytes
+2026-09-11 12:26:38 [main] INFO  performance - Tamano de Pokemon (JOL):
 com.example.Model.Pokemon object internals:
 OFF  SZ                        TYPE DESCRIPTION                    VALUE
   0   8                             (object header: mark)          N/A
@@ -16,7 +16,7 @@ OFF  SZ                        TYPE DESCRIPTION                    VALUE
 Instance size: 40 bytes
 Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
 
-2026-09-10 21:03:53 [main] INFO  performance - Tamano de LineaEvolutiva (JOL):
+2026-09-11 12:26:38 [main] INFO  performance - Tamano de LineaEvolutiva (JOL):
 com.example.Service.LineaEvolutiva object internals:
 OFF  SZ                        TYPE DESCRIPTION                           VALUE
   0   8                             (object header: mark)                 N/A
@@ -27,10 +27,10 @@ OFF  SZ                        TYPE DESCRIPTION                           VALUE
 Instance size: 24 bytes
 Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
 
-2026-09-10 21:24:03 [main] INFO  performance - Memoria RAM disponible antes: 2995662848 bytes
-2026-09-10 21:24:03 [main] INFO  performance - Memoria RAM disponible despues: 2948456448 bytes
-2026-09-10 21:24:03 [main] INFO  performance - Diferencia de RAM: 47206400 bytes
-2026-09-10 21:24:06 [main] INFO  performance - Tamano de Pokemon (JOL):
+2026-09-11 12:28:32 [main] INFO  performance - Memoria RAM disponible antes: 3078242304 bytes
+2026-09-11 12:28:32 [main] INFO  performance - Memoria RAM disponible despues: 3038797824 bytes
+2026-09-11 12:28:32 [main] INFO  performance - Diferencia de RAM: 39444480 bytes
+2026-09-11 12:28:34 [main] INFO  performance - Tamano de Pokemon (JOL):
 com.example.Model.Pokemon object internals:
 OFF  SZ                        TYPE DESCRIPTION                    VALUE
   0   8                             (object header: mark)          N/A
@@ -45,7 +45,7 @@ OFF  SZ                        TYPE DESCRIPTION                    VALUE
 Instance size: 40 bytes
 Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
 
-2026-09-10 21:24:06 [main] INFO  performance - Tamano de LineaEvolutiva (JOL):
+2026-09-11 12:28:34 [main] INFO  performance - Tamano de LineaEvolutiva (JOL):
 com.example.Service.LineaEvolutiva object internals:
 OFF  SZ                        TYPE DESCRIPTION                           VALUE
   0   8                             (object header: mark)                 N/A
@@ -56,10 +56,10 @@ OFF  SZ                        TYPE DESCRIPTION                           VALUE
 Instance size: 24 bytes
 Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
 
-2026-09-10 21:25:23 [main] INFO  performance - Memoria RAM disponible antes: 2480414720 bytes
-2026-09-10 21:25:23 [main] INFO  performance - Memoria RAM disponible despues: 2430005248 bytes
-2026-09-10 21:25:23 [main] INFO  performance - Diferencia de RAM: 50409472 bytes
-2026-09-10 21:25:25 [main] INFO  performance - Tamano de Pokemon (JOL):
+2026-09-11 12:29:20 [main] INFO  performance - Memoria RAM disponible antes: 3220312064 bytes
+2026-09-11 12:29:20 [main] INFO  performance - Memoria RAM disponible despues: 3169292288 bytes
+2026-09-11 12:29:20 [main] INFO  performance - Diferencia de RAM: 51019776 bytes
+2026-09-11 12:29:23 [main] INFO  performance - Tamano de Pokemon (JOL):
 com.example.Model.Pokemon object internals:
 OFF  SZ                        TYPE DESCRIPTION                    VALUE
   0   8                             (object header: mark)          N/A
@@ -74,7 +74,7 @@ OFF  SZ                        TYPE DESCRIPTION                    VALUE
 Instance size: 40 bytes
 Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
 
-2026-09-10 21:25:25 [main] INFO  performance - Tamano de LineaEvolutiva (JOL):
+2026-09-11 12:29:23 [main] INFO  performance - Tamano de LineaEvolutiva (JOL):
 com.example.Service.LineaEvolutiva object internals:
 OFF  SZ                        TYPE DESCRIPTION                           VALUE
   0   8                             (object header: mark)                 N/A
@@ -85,10 +85,10 @@ OFF  SZ                        TYPE DESCRIPTION                           VALUE
 Instance size: 24 bytes
 Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
 
-2026-09-10 21:26:23 [main] INFO  performance - Memoria RAM disponible antes: 2545475584 bytes
-2026-09-10 21:26:23 [main] INFO  performance - Memoria RAM disponible despues: 2452955136 bytes
-2026-09-10 21:26:23 [main] INFO  performance - Diferencia de RAM: 92520448 bytes
-2026-09-10 21:26:25 [main] INFO  performance - Tamano de Pokemon (JOL):
+2026-09-11 13:11:18 [main] INFO  performance - Memoria RAM disponible antes: 3416068096 bytes
+2026-09-11 13:11:18 [main] INFO  performance - Memoria RAM disponible despues: 3322064896 bytes
+2026-09-11 13:11:18 [main] INFO  performance - Diferencia de RAM: 94003200 bytes
+2026-09-11 13:11:20 [main] INFO  performance - Tamano de Pokemon (JOL):
 com.example.Model.Pokemon object internals:
 OFF  SZ                        TYPE DESCRIPTION                    VALUE
   0   8                             (object header: mark)          N/A
@@ -103,7 +103,7 @@ OFF  SZ                        TYPE DESCRIPTION                    VALUE
 Instance size: 40 bytes
 Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
 
-2026-09-10 21:26:25 [main] INFO  performance - Tamano de LineaEvolutiva (JOL):
+2026-09-11 13:11:20 [main] INFO  performance - Tamano de LineaEvolutiva (JOL):
 com.example.Service.LineaEvolutiva object internals:
 OFF  SZ                        TYPE DESCRIPTION                           VALUE
   0   8                             (object header: mark)                 N/A
@@ -114,10 +114,10 @@ OFF  SZ                        TYPE DESCRIPTION                           VALUE
 Instance size: 24 bytes
 Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
 
-2026-09-10 21:28:26 [main] INFO  performance - Memoria RAM disponible antes: 3703812096 bytes
-2026-09-10 21:28:26 [main] INFO  performance - Memoria RAM disponible despues: 3603570688 bytes
-2026-09-10 21:28:26 [main] INFO  performance - Diferencia de RAM: 100241408 bytes
-2026-09-10 21:28:28 [main] INFO  performance - Tamano de Pokemon (JOL):
+2026-09-11 13:16:20 [main] INFO  performance - Memoria RAM disponible antes: 3397849088 bytes
+2026-09-11 13:16:20 [main] INFO  performance - Memoria RAM disponible despues: 3335663616 bytes
+2026-09-11 13:16:20 [main] INFO  performance - Diferencia de RAM: 62185472 bytes
+2026-09-11 13:16:23 [main] INFO  performance - Tamano de Pokemon (JOL):
 com.example.Model.Pokemon object internals:
 OFF  SZ                        TYPE DESCRIPTION                    VALUE
   0   8                             (object header: mark)          N/A
@@ -132,7 +132,7 @@ OFF  SZ                        TYPE DESCRIPTION                    VALUE
 Instance size: 40 bytes
 Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
 
-2026-09-10 21:28:28 [main] INFO  performance - Tamano de LineaEvolutiva (JOL):
+2026-09-11 13:16:23 [main] INFO  performance - Tamano de LineaEvolutiva (JOL):
 com.example.Service.LineaEvolutiva object internals:
 OFF  SZ                        TYPE DESCRIPTION                           VALUE
   0   8                             (object header: mark)                 N/A
@@ -143,10 +143,10 @@ OFF  SZ                        TYPE DESCRIPTION                           VALUE
 Instance size: 24 bytes
 Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
 
-2026-09-10 21:29:45 [main] INFO  performance - Memoria RAM disponible antes: 2559877120 bytes
-2026-09-10 21:29:45 [main] INFO  performance - Memoria RAM disponible despues: 2477109248 bytes
-2026-09-10 21:29:45 [main] INFO  performance - Diferencia de RAM: 82767872 bytes
-2026-09-10 21:29:47 [main] INFO  performance - Tamano de Pokemon (JOL):
+2026-09-11 13:59:33 [main] INFO  performance - Memoria RAM disponible antes: 3300274176 bytes
+2026-09-11 13:59:33 [main] INFO  performance - Memoria RAM disponible despues: 3209641984 bytes
+2026-09-11 13:59:33 [main] INFO  performance - Diferencia de RAM: 90632192 bytes
+2026-09-11 13:59:36 [main] INFO  performance - Tamano de Pokemon (JOL):
 com.example.Model.Pokemon object internals:
 OFF  SZ                        TYPE DESCRIPTION                    VALUE
   0   8                             (object header: mark)          N/A
@@ -161,7 +161,7 @@ OFF  SZ                        TYPE DESCRIPTION                    VALUE
 Instance size: 40 bytes
 Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
 
-2026-09-10 21:29:47 [main] INFO  performance - Tamano de LineaEvolutiva (JOL):
+2026-09-11 13:59:36 [main] INFO  performance - Tamano de LineaEvolutiva (JOL):
 com.example.Service.LineaEvolutiva object internals:
 OFF  SZ                        TYPE DESCRIPTION                           VALUE
   0   8                             (object header: mark)                 N/A
@@ -172,10 +172,10 @@ OFF  SZ                        TYPE DESCRIPTION                           VALUE
 Instance size: 24 bytes
 Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
 
-2026-09-10 21:34:57 [main] INFO  performance - Memoria RAM disponible antes: 2710405120 bytes
-2026-09-10 21:34:57 [main] INFO  performance - Memoria RAM disponible despues: 2655891456 bytes
-2026-09-10 21:34:57 [main] INFO  performance - Diferencia de RAM: 54513664 bytes
-2026-09-10 21:35:00 [main] INFO  performance - Tamano de Pokemon (JOL):
+2026-09-11 14:15:25 [main] INFO  performance - Memoria RAM disponible antes: 3306270720 bytes
+2026-09-11 14:15:25 [main] INFO  performance - Memoria RAM disponible despues: 3062099968 bytes
+2026-09-11 14:15:25 [main] INFO  performance - Diferencia de RAM: 244170752 bytes
+2026-09-11 14:15:28 [main] INFO  performance - Tamano de Pokemon (JOL):
 com.example.Model.Pokemon object internals:
 OFF  SZ                        TYPE DESCRIPTION                    VALUE
   0   8                             (object header: mark)          N/A
@@ -190,7 +190,65 @@ OFF  SZ                        TYPE DESCRIPTION                    VALUE
 Instance size: 40 bytes
 Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
 
-2026-09-10 21:35:00 [main] INFO  performance - Tamano de LineaEvolutiva (JOL):
+2026-09-11 14:15:28 [main] INFO  performance - Tamano de LineaEvolutiva (JOL):
+com.example.Service.LineaEvolutiva object internals:
+OFF  SZ                        TYPE DESCRIPTION                           VALUE
+  0   8                             (object header: mark)                 N/A
+  8   4                             (object header: class)                N/A
+ 12   4                         int LineaEvolutiva.experienciaAcumulada   N/A
+ 16   4   com.example.Model.Pokemon LineaEvolutiva.faseActual             N/A
+ 20   4                             (object alignment gap)                
+Instance size: 24 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2026-09-11 14:19:53 [main] INFO  performance - Memoria RAM disponible antes: 3186819072 bytes
+2026-09-11 14:19:53 [main] INFO  performance - Memoria RAM disponible despues: 2901684224 bytes
+2026-09-11 14:19:53 [main] INFO  performance - Diferencia de RAM: 285134848 bytes
+2026-09-11 14:19:56 [main] INFO  performance - Tamano de Pokemon (JOL):
+com.example.Model.Pokemon object internals:
+OFF  SZ                        TYPE DESCRIPTION                    VALUE
+  0   8                             (object header: mark)          N/A
+  8   4                             (object header: class)         N/A
+ 12   4                         int Pokemon.puntosDeVidaMaximos    N/A
+ 16   4                         int Pokemon.ataque                 N/A
+ 20   4                         int Pokemon.defensa                N/A
+ 24   4                         int Pokemon.experienciaRequerida   N/A
+ 28   4            java.lang.String Pokemon.nombre                 N/A
+ 32   4   com.example.Model.Pokemon Pokemon.siguienteEvolucion     N/A
+ 36   4                             (object alignment gap)         
+Instance size: 40 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2026-09-11 14:19:56 [main] INFO  performance - Tamano de LineaEvolutiva (JOL):
+com.example.Service.LineaEvolutiva object internals:
+OFF  SZ                        TYPE DESCRIPTION                           VALUE
+  0   8                             (object header: mark)                 N/A
+  8   4                             (object header: class)                N/A
+ 12   4                         int LineaEvolutiva.experienciaAcumulada   N/A
+ 16   4   com.example.Model.Pokemon LineaEvolutiva.faseActual             N/A
+ 20   4                             (object alignment gap)                
+Instance size: 24 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2026-09-11 14:22:32 [main] INFO  performance - Memoria RAM disponible antes: 3449307136 bytes
+2026-09-11 14:22:32 [main] INFO  performance - Memoria RAM disponible despues: 3356016640 bytes
+2026-09-11 14:22:32 [main] INFO  performance - Diferencia de RAM: 93290496 bytes
+2026-09-11 14:22:34 [main] INFO  performance - Tamano de Pokemon (JOL):
+com.example.Model.Pokemon object internals:
+OFF  SZ                        TYPE DESCRIPTION                    VALUE
+  0   8                             (object header: mark)          N/A
+  8   4                             (object header: class)         N/A
+ 12   4                         int Pokemon.puntosDeVidaMaximos    N/A
+ 16   4                         int Pokemon.ataque                 N/A
+ 20   4                         int Pokemon.defensa                N/A
+ 24   4                         int Pokemon.experienciaRequerida   N/A
+ 28   4            java.lang.String Pokemon.nombre                 N/A
+ 32   4   com.example.Model.Pokemon Pokemon.siguienteEvolucion     N/A
+ 36   4                             (object alignment gap)         
+Instance size: 40 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2026-09-11 14:22:34 [main] INFO  performance - Tamano de LineaEvolutiva (JOL):
 com.example.Service.LineaEvolutiva object internals:
 OFF  SZ                        TYPE DESCRIPTION                           VALUE
   0   8                             (object header: mark)                 N/A

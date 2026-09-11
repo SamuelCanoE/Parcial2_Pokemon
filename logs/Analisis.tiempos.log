@@ -1,24 +1,27 @@
-2026-09-10 15:13:25 [main] INFO  tiempos - Tiempo de ejecucion: 1120482400 ns
-2026-09-10 15:13:25 [main] INFO  tiempos - Tiempo de ejecucion: 1120.4824 ms
-2026-09-10 15:13:25 [main] INFO  tiempos - Batallas procesadas: 100000
-2026-09-10 21:03:51 [main] INFO  tiempos - Tiempo de ejecucion: 1423200100 ns
-2026-09-10 21:03:51 [main] INFO  tiempos - Tiempo de ejecucion: 1423.2001 ms
-2026-09-10 21:03:51 [main] INFO  tiempos - Batallas procesadas: 100000
-2026-09-10 21:24:03 [main] INFO  tiempos - Tiempo de ejecucion: 1421751400 ns
-2026-09-10 21:24:03 [main] INFO  tiempos - Tiempo de ejecucion: 1421.7514 ms
-2026-09-10 21:24:03 [main] INFO  tiempos - Batallas procesadas: 100000
-2026-09-10 21:25:23 [main] INFO  tiempos - Tiempo de ejecucion: 1363424100 ns
-2026-09-10 21:25:23 [main] INFO  tiempos - Tiempo de ejecucion: 1363.4241 ms
-2026-09-10 21:25:23 [main] INFO  tiempos - Batallas procesadas: 100000
-2026-09-10 21:26:23 [main] INFO  tiempos - Tiempo de ejecucion: 1201146600 ns
-2026-09-10 21:26:23 [main] INFO  tiempos - Tiempo de ejecucion: 1201.1466 ms
-2026-09-10 21:26:23 [main] INFO  tiempos - Batallas procesadas: 100000
-2026-09-10 21:28:26 [main] INFO  tiempos - Tiempo de ejecucion: 1311714200 ns
-2026-09-10 21:28:26 [main] INFO  tiempos - Tiempo de ejecucion: 1311.7142 ms
-2026-09-10 21:28:26 [main] INFO  tiempos - Batallas procesadas: 100000
-2026-09-10 21:29:45 [main] INFO  tiempos - Tiempo de ejecucion: 1155893900 ns
-2026-09-10 21:29:45 [main] INFO  tiempos - Tiempo de ejecucion: 1155.8939 ms
-2026-09-10 21:29:45 [main] INFO  tiempos - Batallas procesadas: 100000
-2026-09-10 21:34:57 [main] INFO  tiempos - Tiempo de ejecucion: 1577936800 ns
-2026-09-10 21:34:57 [main] INFO  tiempos - Tiempo de ejecucion: 1577.9368 ms
-2026-09-10 21:34:57 [main] INFO  tiempos - Batallas procesadas: 100000
+2026-09-11 12:26:35 [main] INFO  tiempos - Tiempo de ejecucion: 1481515800 ns
+2026-09-11 12:26:35 [main] INFO  tiempos - Tiempo de ejecucion: 1481.5158 ms
+2026-09-11 12:26:35 [main] INFO  tiempos - Batallas procesadas: 100000
+2026-09-11 12:28:32 [main] INFO  tiempos - Tiempo de ejecucion: 1600027400 ns
+2026-09-11 12:28:32 [main] INFO  tiempos - Tiempo de ejecucion: 1600.0274 ms
+2026-09-11 12:28:32 [main] INFO  tiempos - Batallas procesadas: 100000
+2026-09-11 12:29:20 [main] INFO  tiempos - Tiempo de ejecucion: 1852018000 ns
+2026-09-11 12:29:20 [main] INFO  tiempos - Tiempo de ejecucion: 1852.018 ms
+2026-09-11 12:29:20 [main] INFO  tiempos - Batallas procesadas: 100000
+2026-09-11 13:11:18 [main] INFO  tiempos - Tiempo de ejecucion: 1731703600 ns
+2026-09-11 13:11:18 [main] INFO  tiempos - Tiempo de ejecucion: 1731.7036 ms
+2026-09-11 13:11:18 [main] INFO  tiempos - Batallas procesadas: 100000
+2026-09-11 13:16:20 [main] INFO  tiempos - Tiempo de ejecucion: 1590796000 ns
+2026-09-11 13:16:20 [main] INFO  tiempos - Tiempo de ejecucion: 1590.796 ms
+2026-09-11 13:16:20 [main] INFO  tiempos - Batallas procesadas: 100000
+2026-09-11 13:59:33 [main] INFO  tiempos - Tiempo de ejecucion: 2034935000 ns
+2026-09-11 13:59:33 [main] INFO  tiempos - Tiempo de ejecucion: 2034.935 ms
+2026-09-11 13:59:33 [main] INFO  tiempos - Batallas procesadas: 100000
+2026-09-11 14:15:25 [main] INFO  tiempos - Tiempo de ejecucion: 5316625400 ns
+2026-09-11 14:15:25 [main] INFO  tiempos - Tiempo de ejecucion: 5316.6254 ms
+2026-09-11 14:15:25 [main] INFO  tiempos - Batallas procesadas: 100000
+2026-09-11 14:19:53 [main] INFO  tiempos - Tiempo de ejecucion: 4746343200 ns
+2026-09-11 14:19:53 [main] INFO  tiempos - Tiempo de ejecucion: 4746.3432 ms
+2026-09-11 14:19:53 [main] INFO  tiempos - Batallas procesadas: 100000
+2026-09-11 14:22:32 [main] INFO  tiempos - Tiempo de ejecucion: 1469469100 ns
+2026-09-11 14:22:32 [main] INFO  tiempos - Tiempo de ejecucion: 1469.4691 ms
+2026-09-11 14:22:32 [main] INFO  tiempos - Batallas procesadas: 100000

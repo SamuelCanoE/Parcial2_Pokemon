@@ -7,7 +7,12 @@ import org.apache.logging.log4j.Logger;
 import org.openjdk.jol.info.ClassLayout;
 import oshi.SystemInfo;
 
-  //logica
+//nuevo parcialhoy
+import java.util.LinkedList;
+import com.example.Model.ReporteBatalla;
+
+
+//logica
 public class SimuladorBatallas {
 
     private static final Logger log = LogManager.getLogger(SimuladorBatallas.class);
@@ -16,6 +21,63 @@ public class SimuladorBatallas {
 
     // XP que da cada Caterpie
     private static final int XP_POR_CATERPIE = 50;
+
+    //nuevo caa negra
+    // cjaa negra cpacidad
+    private static final int capacidadCajaNegra = 10;
+
+    // historial caja
+    private final LinkedList<ReporteBatalla> cajaNegra = new LinkedList<>();
+
+
+    //metodo registrarvictorias
+    // metodo registrar victorias
+    public void registrarVictoria(String nombrePokemon, String nombreEnemigo) {
+
+        // priemra parte
+        // mirar si etsa vacia
+        if (!cajaNegra.isEmpty()) {
+
+            // Obtener el ultimo reporte
+            ReporteBatalla ultimaPelea = cajaNegra.getLast();
+
+            //mirar si la iltima pelea fue igual
+            if (ultimaPelea.getNombrePokemon().equals(nombrePokemon) &&
+                    ultimaPelea.getNombreEnemigo().equals(nombreEnemigo)) {
+
+                ultimaPelea.cantidadDerrotados();
+
+
+                return;
+            }
+        }
+
+        //parte2
+        if (cajaNegra.size() >= capacidadCajaNegra) {
+
+            cajaNegra.removeFirst();
+
+        }
+
+        // crrqar nuevo reporte
+        ReporteBatalla nuevaPelea =
+                new ReporteBatalla(nombrePokemon, nombreEnemigo, 1);
+
+        // agregarlo
+        cajaNegra.addLast(nuevaPelea);
+
+    }
+
+    public void mostrarCajaNegra() {
+
+        log.info("===== CAJA NEGRA =====");
+
+        for (ReporteBatalla reporte : cajaNegra) {
+            log.info("{}", reporte);
+        }
+    }
+
+
 
     //simula una batalla por turnos, el jugador ataca primero
     public boolean realizarBatalla(Pokemon jugador, Pokemon enemigo) {
@@ -86,12 +148,19 @@ public class SimuladorBatallas {
             );
         }
 
+
+        log.info("===== CAJA NEGRA FINAL =====");
+
+        for (ReporteBatalla reporte : cajaNegra) {
+            log.info("{}", reporte);
+        }
         return horda;
     }
 
+    //cambuar
     //recorre toda la horda y realiza las batallas -> O(n), porque recorre el arreglo una sola vez
     public void iniciarEntrenamientoMasivo(
-            LineaEvolutiva miPokemon,
+            LinkedList<LineaEvolutiva> EquipoJuanPis,
             Pokemon[] hordaEnemigos) {
 
         //memoria RAM disponible antes de las batallas
@@ -99,15 +168,21 @@ public class SimuladorBatallas {
         long memoriaAntes =
                 systemInfo.getHardware().getMemory().getAvailable();
 
+        // crear var contador para que cambien cada 50
+        int contadorcambio = 0;
+
         //inicio de la medicion del tiempo
         long inicio = System.nanoTime();
 
         for (int i = 0; i < hordaEnemigos.length; i++) {
 
+
             Pokemon enemigoActual = hordaEnemigos[i];
 
             //obtiene la fase actual del Pokemon
-            Pokemon pokemonJugador = miPokemon.getFaseActual();
+                Pokemon pokemonJugador = EquipoJuanPis.getFirst().getFaseActual();
+
+
 
             //la vida empieza nuevamente en cada batalla
             boolean gano = realizarBatalla(
@@ -117,8 +192,25 @@ public class SimuladorBatallas {
 
             //si gana, recibe experiencia y se revisa la evolucion
             if (gano) {
-                miPokemon.agregarExperiencia(XP_POR_CATERPIE);
+                EquipoJuanPis.getFirst().agregarExperiencia(XP_POR_CATERPIE);
+
+                registrarVictoria(pokemonJugador.getNombre(), enemigoActual.getNombre());
             }
+
+            contadorcambio++;
+
+            //condicion apra cambiar cada 50
+            if (contadorcambio == 50) {
+
+                LineaEvolutiva cambiarPokemon = EquipoJuanPis.removeFirst();
+
+                EquipoJuanPis.addLast(cambiarPokemon);
+
+                contadorcambio = 0;
+
+                log.info("Cambio de Pokemon para -> {}", EquipoJuanPis.getFirst().getFaseActual().getNombre());
+            }
+
 
             //muestra el avance cada 10.000 batallas
             if ((i + 1) % 10000 == 0) {
